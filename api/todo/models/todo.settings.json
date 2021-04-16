@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "todos",
   "info": {
-    "name": "todo"
+    "name": "todo",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -10,8 +11,14 @@
     "draftAndPublish": true
   },
   "attributes": {
-    "todo": {
-      "type": "text"
+    "title": {
+      "type": "text",
+      "required": true,
+      "unique": true
+    },
+    "status": {
+      "type": "string",
+      "required": false
     }
   }
 }
