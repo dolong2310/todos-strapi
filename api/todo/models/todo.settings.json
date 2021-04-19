@@ -19,6 +19,10 @@
     "status": {
       "type": "string",
       "required": false
+    },
+    "userId": {
+      "type": "string",
+      "unique": true
     }
   }
 }
