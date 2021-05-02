@@ -13,7 +13,7 @@
   "attributes": {
     "title": {
       "type": "text",
-      "required": true,
+      "required": false,
       "unique": false
     },
     "status": {
@@ -22,7 +22,7 @@
     },
     "userId": {
       "type": "string",
-      "unique": true
+      "unique": false
     }
   }
 }
